@@ -230,7 +230,7 @@ a) change Play! version from
 {{{
     <properties>
         ...
-        <play2.version>2.3.3</play2.version>
+        <play2.version>2.3.6</play2.version>
     </properties>
 }}}
 to
@@ -252,20 +252,18 @@ b) add new dependency
 
 * Play! 2.2.x to Play! 2.3.x migration*
 
-In your play2 project change Play! (and optionally Scala) version from
+In your play2 project change Play! version from
 {{{
     <properties>
         ...
-        <play2.version>2.2.4</play2.version>
-        <scala.version>2.10.3</scala.version>
+        <play2.version>2.2.5</play2.version>
     </properties>
 }}}
 to
 {{{
     <properties>
         ...
-        <play2.version>2.3.3</play2.version>
-        <scala.version>2.10.4</scala.version>
+        <play2.version>2.3.6</play2.version>
     </properties>
 }}}
 
@@ -285,8 +283,8 @@ to
 {{{
     <properties>
         ...
-        <play2.version>2.2.4</play2.version>
-        <scala.version>2.10.3</scala.version>
+        <play2.version>2.2.5</play2.version>
+        <scala.version>2.10.4</scala.version>
     </properties>
 }}}
 
