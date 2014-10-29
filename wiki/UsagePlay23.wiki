@@ -30,7 +30,7 @@ Simplest project (pom.xml file) should look like:
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <play2.version>2.3.3</play2.version>
+        <play2.version>2.3.6</play2.version>
         <scala.version>2.10.4</scala.version>
 
         <play2.plugin.version>1.0.0-alpha8</play2.plugin.version>
@@ -58,10 +58,8 @@ Simplest project (pom.xml file) should look like:
                 <directory>${basedir}/conf</directory>
             </resource>
             <resource>
-                <directory>${basedir}</directory>
-                <includes>
-                    <include>public/**</include>
-                </includes>
+                <directory>${basedir}/public</directory>
+                <targetPath>public</targetPath>
             </resource>
         </resources>
 
@@ -107,7 +105,7 @@ Example with optional dependencies and configuration options:
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <play2.version>2.3.3</play2.version>
+        <play2.version>2.3.6</play2.version>
         <scala.version>2.10.4</scala.version>
 
         <play2.plugin.version>1.0.0-alpha8</play2.plugin.version>
@@ -185,10 +183,8 @@ Example with optional dependencies and configuration options:
                 <directory>${basedir}/conf</directory>
             </resource>
             <resource>
-                <directory>${basedir}</directory>
-                <includes>
-                    <include>public/**</include>
-                </includes>
+                <directory>${basedir}/public</directory>
+                <targetPath>public</targetPath>
             </resource>
         </resources>
 
@@ -240,7 +236,7 @@ with
 {{{
     <properties>
         ...
-        <scala.version>2.11.0</scala.version>
+        <scala.version>2.11.2</scala.version>
     </properties>
 }}}
 
