@@ -271,12 +271,11 @@ to
 
 In your play2 project
 
-a) change Play! (and optionally Scala) version from
+a) change Play! version from
 {{{
     <properties>
         ...
         <play2.version>2.1.5</play2.version>
-        <scala.version>2.10.0</scala.version>
     </properties>
 }}}
 to
@@ -284,7 +283,6 @@ to
     <properties>
         ...
         <play2.version>2.2.5</play2.version>
-        <scala.version>2.10.4</scala.version>
     </properties>
 }}}
 
