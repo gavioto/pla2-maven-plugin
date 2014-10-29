@@ -30,8 +30,8 @@ Simplest project (pom.xml file) should look like:
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <play2.version>2.2.4</play2.version>
-        <scala.version>2.10.3</scala.version>
+        <play2.version>2.2.5</play2.version>
+        <scala.version>2.10.4</scala.version>
 
         <play2.plugin.version>1.0.0-alpha8</play2.plugin.version>
         <sbt-compiler.plugin.version>1.0.0-beta4</sbt-compiler.plugin.version>
@@ -58,10 +58,8 @@ Simplest project (pom.xml file) should look like:
                 <directory>${basedir}/conf</directory>
             </resource>
             <resource>
-                <directory>${basedir}</directory>
-                <includes>
-                    <include>public/**</include>
-                </includes>
+                <directory>${basedir}/public</directory>
+                <targetPath>public</targetPath>
             </resource>
         </resources>
 
