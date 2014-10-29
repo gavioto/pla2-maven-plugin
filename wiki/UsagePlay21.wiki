@@ -58,10 +58,8 @@ Simplest project (pom.xml file) should look like:
                 <directory>${basedir}/conf</directory>
             </resource>
             <resource>
-                <directory>${basedir}</directory>
-                <includes>
-                    <include>public/**</include>
-                </includes>
+                <directory>${basedir}/public</directory>
+                <targetPath>public</targetPath>
             </resource>
         </resources>
 
