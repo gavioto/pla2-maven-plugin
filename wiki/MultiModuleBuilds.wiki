@@ -6,8 +6,8 @@ If you know, how to build multi-module project with Maven, you know how to build
 
 There are two example builds:
 
-For Play! 2.1.x - https://play2-maven-plugin.googlecode.com/svn/tags/test-projects-1.0.0-alpha8/play21/multimodule
+For Play! 2.1.x - https://play2-maven-plugin.googlecode.com/svn/tags/test-projects-1.0.0-alpha9/play21/multimodule
 
-For Play! 2.2.x - https://play2-maven-plugin.googlecode.com/svn/tags/test-projects-1.0.0-alpha8/play22/multimodule
+For Play! 2.2.x - https://play2-maven-plugin.googlecode.com/svn/tags/test-projects-1.0.0-alpha9/play22/multimodule
 
-For Play! 2.3.x - https://play2-maven-plugin.googlecode.com/svn/tags/test-projects-1.0.0-alpha8/play23/multimodule
+For Play! 2.3.x - https://play2-maven-plugin.googlecode.com/svn/tags/test-projects-1.0.0-alpha9/play23/multimodule
