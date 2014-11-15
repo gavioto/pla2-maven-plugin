@@ -31,10 +31,10 @@ Simplest project (pom.xml file) should look like:
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <play2.version>2.3.6</play2.version>
-        <scala.version>2.10.4</scala.version>
+        <scala.version>2.11.4</scala.version>
 
-        <play2.plugin.version>1.0.0-alpha8</play2.plugin.version>
-        <sbt-compiler.plugin.version>1.0.0-beta4</sbt-compiler.plugin.version>
+        <play2.plugin.version>1.0.0-alpha9</play2.plugin.version>
+        <sbt-compiler.plugin.version>1.0.0-beta5</sbt-compiler.plugin.version>
     </properties>
 
     <dependencies>
@@ -46,7 +46,7 @@ Simplest project (pom.xml file) should look like:
 
         <dependency>
             <groupId>com.typesafe.play</groupId>
-            <artifactId>play_2.10</artifactId>
+            <artifactId>play_2.11</artifactId>
             <version>${play2.version}</version>
         </dependency>
     </dependencies>
@@ -106,10 +106,10 @@ Example with optional dependencies and configuration options:
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <play2.version>2.3.6</play2.version>
-        <scala.version>2.10.4</scala.version>
+        <scala.version>2.11.4</scala.version>
 
-        <play2.plugin.version>1.0.0-alpha8</play2.plugin.version>
-        <sbt-compiler.plugin.version>1.0.0-beta4</sbt-compiler.plugin.version>
+        <play2.plugin.version>1.0.0-alpha9</play2.plugin.version>
+        <sbt-compiler.plugin.version>1.0.0-beta5</sbt-compiler.plugin.version>
     </properties>
 
     <dependencies>
@@ -121,42 +121,42 @@ Example with optional dependencies and configuration options:
 
         <dependency>
             <groupId>com.typesafe.play</groupId>
-            <artifactId>play_2.10</artifactId>
+            <artifactId>play_2.11</artifactId>
             <version>${play2.version}</version>
         </dependency>
 
         <!-- only if using Anorm -->
         <dependency>
             <groupId>com.typesafe.play</groupId>
-            <artifactId>anorm_2.10</artifactId>
+            <artifactId>anorm_2.11</artifactId>
             <version>${play2.version}</version>
         </dependency>
 
         <!-- only if using JDBC -->
         <dependency>
             <groupId>com.typesafe.play</groupId>
-            <artifactId>play-jdbc_2.10</artifactId>
+            <artifactId>play-jdbc_2.11</artifactId>
             <version>${play2.version}</version>
         </dependency>
 
         <!-- only if using Java -->
         <dependency>
             <groupId>com.typesafe.play</groupId>
-            <artifactId>play-java_2.10</artifactId>
+            <artifactId>play-java_2.11</artifactId>
             <version>${play2.version}</version>
         </dependency>
 
         <!-- only if using Ebean -->
         <dependency>
             <groupId>com.typesafe.play</groupId>
-            <artifactId>play-java-ebean_2.10</artifactId>
+            <artifactId>play-java-ebean_2.11</artifactId>
             <version>${play2.version}</version>
         </dependency>
 
         <!-- only if using JPA -->
         <dependency>
             <groupId>com.typesafe.play</groupId>
-            <artifactId>play-java-jpa_2.10</artifactId>
+            <artifactId>play-java-jpa_2.11</artifactId>
             <version>${play2.version}</version>
         </dependency>
 
@@ -170,7 +170,7 @@ Example with optional dependencies and configuration options:
         <!-- only if there are tests in the project -->
         <dependency>
             <groupId>com.typesafe.play</groupId>
-            <artifactId>play-test_2.10</artifactId>
+            <artifactId>play-test_2.11</artifactId>
             <version>${play2.version}</version>
             <scope>test</scope>
         </dependency>
@@ -222,12 +222,12 @@ Example with optional dependencies and configuration options:
 </project>
 }}}
 
-For Scala 2.11 just replace:
+For Scala 2.10 just replace:
 
 {{{
     <properties>
         ...
-        <scala.version>2.10.4</scala.version>
+        <scala.version>2.11.4</scala.version>
     </properties>
 }}}
 
@@ -236,21 +236,11 @@ with
 {{{
     <properties>
         ...
-        <scala.version>2.11.2</scala.version>
+        <scala.version>2.10.4</scala.version>
     </properties>
 }}}
 
-and suffixes in all Play! dependency artifact ids from "{{{_2.10}}}" to "{{{_2.11}}}", for example change:
-
-{{{
-        <dependency>
-            <groupId>com.typesafe.play</groupId>
-            <artifactId>play_2.10</artifactId>
-            <version>${play2.version}</version>
-        </dependency>
-}}}
-
-to
+and suffixes in all Play! dependency artifact ids from "{{{_2.11}}}" to "{{{_2.10}}}", for example change:
 
 {{{
         <dependency>
@@ -260,4 +250,14 @@ to
         </dependency>
 }}}
 
-For more example projects go to [http://play2-maven-plugin.googlecode.com/svn/tags/test-projects-1.0.0-alpha8/play23/ Play! 2.3.x test projects].
+to
+
+{{{
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play_2.10</artifactId>
+            <version>${play2.version}</version>
+        </dependency>
+}}}
+
+For more example projects go to [http://play2-maven-plugin.googlecode.com/svn/tags/test-projects-1.0.0-alpha9/play23/ Play! 2.3.x test projects].
