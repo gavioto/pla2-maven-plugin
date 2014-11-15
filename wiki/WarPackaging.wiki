@@ -54,7 +54,7 @@ Configure maven-war-plugin plugin:
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>2.4</version>
+                <version>2.5</version>
                 <configuration>
                     <filteringDeploymentDescriptors>true</filteringDeploymentDescriptors>
                     <primaryArtifact>false</primaryArtifact>
@@ -74,7 +74,7 @@ Configure maven-war-plugin plugin:
     </build>
 }}}
 
-See working [http://play2-maven-plugin.googlecode.com/svn/tags/test-projects-1.0.0-alpha8/play22/war/helloworld-war-servlet-2.5 example project] tested with Apache Tomcat 6.0.33 and 7.0.52.
+See working [http://play2-maven-plugin.googlecode.com/svn/tags/test-projects-1.0.0-alpha9/play22/war/helloworld-war-servlet-2.5 example project] tested with Apache Tomcat 6.0.33 and 7.0.52.
 
 == Servlet 3.0 ==
 
@@ -100,7 +100,7 @@ Configure maven-war-plugin plugin:
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>2.4</version>
+                <version>2.5</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                     <primaryArtifact>false</primaryArtifact>
@@ -120,7 +120,7 @@ Configure maven-war-plugin plugin:
     </build>
 }}}
 
-See working [http://play2-maven-plugin.googlecode.com/svn/tags/test-projects-1.0.0-alpha8/play22/war/helloworld-war-servlet-3.0 example project] tested with Apache Tomcat 7.0.52 and 8.0.3.
+See working [http://play2-maven-plugin.googlecode.com/svn/tags/test-projects-1.0.0-alpha9/play22/war/helloworld-war-servlet-3.0 example project] tested with Apache Tomcat 7.0.52 and 8.0.3.
 
 == Attaching WAR file to project build artifacts ==
 
@@ -133,7 +133,7 @@ If you want to install/deploy generated WAR file, you have to attach it to the p
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
-                <version>1.8</version>
+                <version>1.9.1</version>
                 <executions>
                     <execution>
                         <id>attach-war</id>
