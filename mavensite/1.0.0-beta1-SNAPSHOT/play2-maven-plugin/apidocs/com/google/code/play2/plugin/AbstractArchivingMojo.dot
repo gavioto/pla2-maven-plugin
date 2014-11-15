@@ -35,10 +35,10 @@ digraph G {
 	c236:p -> c241:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2DistMojo DEPEND org.codehaus.plexus.archiver.zip.ZipArchiver
 	c233:p -> c243:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractArchivingMojo DEPEND org.codehaus.plexus.archiver.zip.ZipArchiver
-	c236:p -> c243:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractArchivingMojo DEPEND org.codehaus.plexus.archiver.war.WarArchiver
 	c236:p -> c247:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractArchivingMojo DEPEND org.codehaus.plexus.archiver.zip.ZipArchiver
+	c236:p -> c243:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractArchivingMojo DEPEND org.codehaus.plexus.archiver.Archiver
 	c236:p -> c249:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.codehaus.plexus.archiver.manager.ArchiverManager

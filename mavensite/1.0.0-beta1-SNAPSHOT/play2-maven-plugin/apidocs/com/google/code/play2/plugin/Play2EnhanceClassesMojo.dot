@@ -28,13 +28,13 @@ digraph G {
 	// com.google.code.play2.plugin.Play2EnhanceClassesMojo DEPEND com.google.code.sbt.compiler.api.Analysis
 	c694:p -> c715:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.provider.api.Play2JavaEnhancer
-	c714 [label=<<table title="com.google.code.play2.provider.api.Play2JavaEnhancer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2JavaEnhancer.html">
+	c714 [label=<<table title="com.google.code.play2.provider.api.Play2JavaEnhancer" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-beta1-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2JavaEnhancer.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2JavaEnhancer </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.google.code.play2.provider.api </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2JavaEnhancer.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-beta1-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2JavaEnhancer.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.sbt.compiler.api.Analysis
 	c715 [label=<<table title="com.google.code.sbt.compiler.api.Analysis" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://sbt-compiler-maven-plugin.googlecode.com/svn/mavensite/1.0.0-beta5/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/Analysis.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">

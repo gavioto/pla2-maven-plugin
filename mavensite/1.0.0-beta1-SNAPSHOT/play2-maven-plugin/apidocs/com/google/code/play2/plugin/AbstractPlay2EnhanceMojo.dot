@@ -51,10 +51,10 @@ digraph G {
 	c350:p -> c359:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
 	c351:p -> c358:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
-	c351:p -> c359:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND com.google.code.sbt.compiler.api.AnalysisProcessor
 	c351:p -> c360:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.artifact.Artifact
+	c351:p -> c359:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.sbt.compiler.api.AnalysisProcessor
 	c360 [label=<<table title="com.google.code.sbt.compiler.api.AnalysisProcessor" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://sbt-compiler-maven-plugin.googlecode.com/svn/mavensite/1.0.0-beta5/sbt-compiler-api/apidocs/com/google/code/sbt/compiler/api/AnalysisProcessor.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">

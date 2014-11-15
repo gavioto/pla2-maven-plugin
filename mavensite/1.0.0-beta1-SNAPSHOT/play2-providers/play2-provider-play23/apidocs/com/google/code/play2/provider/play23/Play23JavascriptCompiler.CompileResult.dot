@@ -18,12 +18,12 @@ digraph G {
 	//com.google.code.play2.provider.play23.Play23JavascriptCompiler.CompileResult implements com.google.code.play2.provider.api.JavascriptCompilationResult
 	c148:p -> c143:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.provider.api.JavascriptCompilationResult
-	c148 [label=<<table title="com.google.code.play2.provider.api.JavascriptCompilationResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/JavascriptCompilationResult.html">
+	c148 [label=<<table title="com.google.code.play2.provider.api.JavascriptCompilationResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-beta1-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/JavascriptCompilationResult.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> JavascriptCompilationResult </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.google.code.play2.provider.api </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/JavascriptCompilationResult.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-beta1-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/JavascriptCompilationResult.html", fontname="arial", fontcolor="black", fontsize=9.0];
 }
 

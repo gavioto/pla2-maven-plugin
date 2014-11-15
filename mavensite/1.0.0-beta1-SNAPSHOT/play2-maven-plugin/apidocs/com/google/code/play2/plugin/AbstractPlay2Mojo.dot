@@ -99,10 +99,10 @@ digraph G {
 	c380:p -> c394:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo NAVASSOC org.apache.maven.artifact.Artifact
 	c385:p -> c394:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.project.MavenProject
-	c379:p -> c388:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND com.google.code.play2.provider.api.Play2Provider
 	c379:p -> c393:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.project.MavenProject
+	c379:p -> c388:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.artifact.Artifact
 	c379:p -> c394:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2EnhanceMojo DEPEND org.apache.maven.project.MavenProject
@@ -119,13 +119,13 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://maven.apache.org/ref/2.2.1/maven-plugin-api/apidocs/org/apache/maven/plugin/AbstractMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.provider.api.Play2Provider
-	c393 [label=<<table title="com.google.code.play2.provider.api.Play2Provider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html">
+	c393 [label=<<table title="com.google.code.play2.provider.api.Play2Provider" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-beta1-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Play2Provider </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.google.code.play2.provider.api </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-beta1-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.artifact.factory.ArtifactFactory
 	c390 [label=<<table title="org.apache.maven.artifact.factory.ArtifactFactory" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/factory/ArtifactFactory.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
