@@ -10,23 +10,23 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.Play2DistMojo
-	c646 [label=<<table title="com.google.code.play2.plugin.Play2DistMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2DistMojo.html">
+	c643 [label=<<table title="com.google.code.play2.plugin.Play2DistMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2DistMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2DistMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2DistMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2DistMojo
-	c658 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2DistMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2DistMojo.html">
+	c655 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2DistMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2DistMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2DistMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2DistMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.Play2DistMojo extends com.google.code.play2.plugin.AbstractPlay2DistMojo
-	c658:p -> c646:p [dir=back,arrowtail=empty];
+	c655:p -> c643:p [dir=back,arrowtail=empty];
 	// com.google.code.play2.plugin.Play2DistMojo NAVASSOC org.apache.maven.project.MavenProjectHelper
-	c646:p -> c664:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c643:p -> c661:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.apache.maven.project.MavenProjectHelper
-	c664 [label=<<table title="org.apache.maven.project.MavenProjectHelper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProjectHelper.html">
+	c661 [label=<<table title="org.apache.maven.project.MavenProjectHelper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProjectHelper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> MavenProjectHelper </td></tr>

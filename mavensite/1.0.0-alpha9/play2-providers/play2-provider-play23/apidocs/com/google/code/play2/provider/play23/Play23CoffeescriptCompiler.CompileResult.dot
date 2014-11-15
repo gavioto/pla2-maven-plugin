@@ -18,12 +18,12 @@ digraph G {
 	//com.google.code.play2.provider.play23.Play23CoffeescriptCompiler.CompileResult implements com.google.code.play2.provider.api.CoffeescriptCompilationResult
 	c64:p -> c63:p [dir=back,arrowtail=empty,style=dashed];
 	// com.google.code.play2.provider.api.CoffeescriptCompilationResult
-	c64 [label=<<table title="com.google.code.play2.provider.api.CoffeescriptCompilationResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/CoffeescriptCompilationResult.html">
+	c64 [label=<<table title="com.google.code.play2.provider.api.CoffeescriptCompilationResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/CoffeescriptCompilationResult.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> CoffeescriptCompilationResult </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> com.google.code.play2.provider.api </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9-SNAPSHOT/play2-provider-api/apidocs/com/google/code/play2/provider/api/CoffeescriptCompilationResult.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/CoffeescriptCompilationResult.html", fontname="arial", fontcolor="black", fontsize=9.0];
 }
 

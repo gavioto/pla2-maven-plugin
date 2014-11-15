@@ -10,66 +10,66 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.AbstractPlay2Mojo
-	c233 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
+	c231 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2DistMojo
-	c235 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2DistMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2DistMojo.html">
+	c233 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2DistMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2DistMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2DistMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2DistMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractArchivingMojo
-	c238 [label=<<table title="com.google.code.play2.plugin.AbstractArchivingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractArchivingMojo.html">
+	c236 [label=<<table title="com.google.code.play2.plugin.AbstractArchivingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractArchivingMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractArchivingMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractArchivingMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.AbstractPlay2DistMojo extends com.google.code.play2.plugin.AbstractArchivingMojo
-	c238:p -> c235:p [dir=back,arrowtail=empty];
+	c236:p -> c233:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractArchivingMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c233:p -> c238:p [dir=back,arrowtail=empty];
+	c231:p -> c236:p [dir=back,arrowtail=empty];
 	// com.google.code.play2.plugin.AbstractArchivingMojo NAVASSOC org.codehaus.plexus.archiver.manager.ArchiverManager
-	c238:p -> c243:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c236:p -> c241:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2DistMojo DEPEND org.codehaus.plexus.archiver.zip.ZipArchiver
-	c235:p -> c245:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c233:p -> c243:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractArchivingMojo DEPEND org.codehaus.plexus.archiver.zip.ZipArchiver
-	c238:p -> c245:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractArchivingMojo DEPEND org.codehaus.plexus.archiver.Archiver
-	c238:p -> c247:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c236:p -> c243:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractArchivingMojo DEPEND org.codehaus.plexus.archiver.war.WarArchiver
-	c238:p -> c251:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c236:p -> c247:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// com.google.code.play2.plugin.AbstractArchivingMojo DEPEND org.codehaus.plexus.archiver.Archiver
+	c236:p -> c249:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.codehaus.plexus.archiver.manager.ArchiverManager
-	c243 [label=<<table title="org.codehaus.plexus.archiver.manager.ArchiverManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.3/org/codehaus/plexus/archiver/manager/ArchiverManager.html">
+	c241 [label=<<table title="org.codehaus.plexus.archiver.manager.ArchiverManager" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/manager/ArchiverManager.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ArchiverManager </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.codehaus.plexus.archiver.manager </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.3/org/codehaus/plexus/archiver/manager/ArchiverManager.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/manager/ArchiverManager.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.codehaus.plexus.archiver.war.WarArchiver
-	c251 [label=<<table title="org.codehaus.plexus.archiver.war.WarArchiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.3/org/codehaus/plexus/archiver/war/WarArchiver.html">
+	c247 [label=<<table title="org.codehaus.plexus.archiver.war.WarArchiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/war/WarArchiver.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> WarArchiver </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.codehaus.plexus.archiver.war </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.3/org/codehaus/plexus/archiver/war/WarArchiver.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/war/WarArchiver.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.codehaus.plexus.archiver.Archiver
-	c247 [label=<<table title="org.codehaus.plexus.archiver.Archiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.3/org/codehaus/plexus/archiver/Archiver.html">
+	c249 [label=<<table title="org.codehaus.plexus.archiver.Archiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/Archiver.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Archiver </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.codehaus.plexus.archiver </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.3/org/codehaus/plexus/archiver/Archiver.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/Archiver.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.codehaus.plexus.archiver.zip.ZipArchiver
-	c245 [label=<<table title="org.codehaus.plexus.archiver.zip.ZipArchiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.3/org/codehaus/plexus/archiver/zip/ZipArchiver.html">
+	c243 [label=<<table title="org.codehaus.plexus.archiver.zip.ZipArchiver" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/zip/ZipArchiver.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ZipArchiver </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.codehaus.plexus.archiver.zip </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.3/org/codehaus/plexus/archiver/zip/ZipArchiver.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/zip/ZipArchiver.html", fontname="arial", fontcolor="black", fontsize=9.0];
 }
 

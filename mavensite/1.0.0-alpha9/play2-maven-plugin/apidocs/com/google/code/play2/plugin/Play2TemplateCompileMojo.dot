@@ -10,23 +10,23 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.Play2TemplateCompileMojo
-	c853 [label=<<table title="com.google.code.play2.plugin.Play2TemplateCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2TemplateCompileMojo.html">
+	c848 [label=<<table title="com.google.code.play2.plugin.Play2TemplateCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2TemplateCompileMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2TemplateCompileMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2TemplateCompileMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo
-	c871 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
+	c866 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.Play2TemplateCompileMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c871:p -> c853:p [dir=back,arrowtail=empty];
+	c866:p -> c848:p [dir=back,arrowtail=empty];
 	// com.google.code.play2.plugin.Play2TemplateCompileMojo NAVASSOC org.sonatype.plexus.build.incremental.BuildContext
-	c853:p -> c879:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c848:p -> c874:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// org.sonatype.plexus.build.incremental.BuildContext
-	c879 [label=<<table title="org.sonatype.plexus.build.incremental.BuildContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
+	c874 [label=<<table title="org.sonatype.plexus.build.incremental.BuildContext" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> BuildContext </td></tr>

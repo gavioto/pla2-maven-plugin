@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.Play2LessCompileMojo
-	c284 [label=<<table title="com.google.code.play2.plugin.Play2LessCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2LessCompileMojo.html">
+	c282 [label=<<table title="com.google.code.play2.plugin.Play2LessCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2LessCompileMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2LessCompileMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2LessCompileMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.Play2CoffeeCompileMojo
-	c289 [label=<<table title="com.google.code.play2.plugin.Play2CoffeeCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2CoffeeCompileMojo.html">
+	c287 [label=<<table title="com.google.code.play2.plugin.Play2CoffeeCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2CoffeeCompileMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2CoffeeCompileMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2CoffeeCompileMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.Play2ClosureCompileMojo
-	c290 [label=<<table title="com.google.code.play2.plugin.Play2ClosureCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2ClosureCompileMojo.html">
+	c288 [label=<<table title="com.google.code.play2.plugin.Play2ClosureCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Play2ClosureCompileMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2ClosureCompileMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2ClosureCompileMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo
-	c297 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
+	c295 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo
-	c300 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2AssetsCompileMojo.html">
+	c298 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPlay2AssetsCompileMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2AssetsCompileMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2AssetsCompileMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.Play2LessCompileMojo extends com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo
-	c300:p -> c284:p [dir=back,arrowtail=empty];
+	c298:p -> c282:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.Play2CoffeeCompileMojo extends com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo
-	c300:p -> c289:p [dir=back,arrowtail=empty];
+	c298:p -> c287:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.Play2ClosureCompileMojo extends com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo
-	c300:p -> c290:p [dir=back,arrowtail=empty];
+	c298:p -> c288:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractPlay2AssetsCompileMojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c297:p -> c300:p [dir=back,arrowtail=empty];
+	c295:p -> c298:p [dir=back,arrowtail=empty];
 }
 

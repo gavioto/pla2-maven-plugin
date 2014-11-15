@@ -10,57 +10,55 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.AbstractPlay2ServerMojo
-	c82 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2ServerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2ServerMojo.html">
+	c80 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2ServerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2ServerMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2ServerMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2ServerMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo
-	c94 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
+	c92 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo
-	c108 [label=<<table title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractAntJavaBasedPlay2Mojo.html">
+	c105 [label=<<table title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractAntJavaBasedPlay2Mojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractAntJavaBasedPlay2Mojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractAntJavaBasedPlay2Mojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.AbstractPlay2ServerMojo extends com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo
-	c108:p -> c82:p [dir=back,arrowtail=empty];
+	c105:p -> c80:p [dir=back,arrowtail=empty];
 	//com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo extends com.google.code.play2.plugin.AbstractPlay2Mojo
-	c94:p -> c108:p [dir=back,arrowtail=empty];
+	c92:p -> c105:p [dir=back,arrowtail=empty];
 	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo NAVASSOC org.apache.maven.artifact.Artifact
-	c108:p -> c154:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c105:p -> c148:p [taillabel="", label="", headlabel="*", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// com.google.code.play2.plugin.AbstractPlay2ServerMojo DEPEND org.apache.tools.ant.taskdefs.Java
-	c82:p -> c170:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c80:p -> c164:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2ServerMojo DEPEND org.apache.tools.ant.Project
-	c82:p -> c181:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c80:p -> c182:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractPlay2Mojo DEPEND org.apache.maven.artifact.Artifact
-	c94:p -> c154:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c92:p -> c148:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo DEPEND org.apache.tools.ant.taskdefs.Java
-	c108:p -> c170:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c105:p -> c164:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo DEPEND org.apache.tools.ant.Project
-	c108:p -> c181:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo DEPEND org.apache.maven.artifact.Artifact
-	c108:p -> c154:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c105:p -> c182:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// org.apache.tools.ant.taskdefs.Java
-	c170 [label=<<table title="org.apache.tools.ant.taskdefs.Java" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.0/org/apache/tools/ant/taskdefs/Java.html">
+	c164 [label=<<table title="org.apache.tools.ant.taskdefs.Java" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/taskdefs/Java.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Java </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.tools.ant.taskdefs </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.0/org/apache/tools/ant/taskdefs/Java.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/taskdefs/Java.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.tools.ant.Project
-	c181 [label=<<table title="org.apache.tools.ant.Project" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.0/org/apache/tools/ant/Project.html">
+	c182 [label=<<table title="org.apache.tools.ant.Project" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/Project.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Project </td></tr>
 <tr><td align="center" balign="center"><font point-size="7.0"> org.apache.tools.ant </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.0/org/apache/tools/ant/Project.html", fontname="arial", fontcolor="black", fontsize=9.0];
+		</table>>, URL="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/Project.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// org.apache.maven.artifact.Artifact
-	c154 [label=<<table title="org.apache.maven.artifact.Artifact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html">
+	c148 [label=<<table title="org.apache.maven.artifact.Artifact" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Artifact </td></tr>

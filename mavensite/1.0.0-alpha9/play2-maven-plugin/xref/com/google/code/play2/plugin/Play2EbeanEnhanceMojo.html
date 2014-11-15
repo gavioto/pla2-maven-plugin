@@ -195,12 +195,12 @@
 <a class="jxr_linenumber" name="L187" href="#L187">187</a> 
 <a class="jxr_linenumber" name="L188" href="#L188">188</a>         <strong class="jxr_keyword">if</strong> ( processedFiles &gt; 0 )
 <a class="jxr_linenumber" name="L189" href="#L189">189</a>         {
-<a class="jxr_linenumber" name="L190" href="#L190">190</a>             getLog().info( String.format( <span class="jxr_string">"%d classes processed, %d enhanced"</span>, Integer.valueOf( processedFiles ),
+<a class="jxr_linenumber" name="L190" href="#L190">190</a>             getLog().info( String.format( <span class="jxr_string">"%d Ebean classes processed, %d enhanced"</span>, Integer.valueOf( processedFiles ),
 <a class="jxr_linenumber" name="L191" href="#L191">191</a>                                           Integer.valueOf( enhancedFiles ) ) );
 <a class="jxr_linenumber" name="L192" href="#L192">192</a>         }
 <a class="jxr_linenumber" name="L193" href="#L193">193</a>         <strong class="jxr_keyword">else</strong>
 <a class="jxr_linenumber" name="L194" href="#L194">194</a>         {
-<a class="jxr_linenumber" name="L195" href="#L195">195</a>             getLog().info( <span class="jxr_string">"No classes to enhance"</span> );
+<a class="jxr_linenumber" name="L195" href="#L195">195</a>             getLog().info( <span class="jxr_string">"No Ebean classes to enhance"</span> );
 <a class="jxr_linenumber" name="L196" href="#L196">196</a>         }
 <a class="jxr_linenumber" name="L197" href="#L197">197</a>     }
 <a class="jxr_linenumber" name="L198" href="#L198">198</a> 
@@ -268,7 +268,7 @@
 <a class="jxr_linenumber" name="L260" href="#L260">260</a>                     <strong class="jxr_keyword">if</strong> ( recurse )
 <a class="jxr_linenumber" name="L261" href="#L261">261</a>                     {
 <a class="jxr_linenumber" name="L262" href="#L262">262</a>                         String subdir = dir + <span class="jxr_string">"/"</span> + file.getName();
-<a class="jxr_linenumber" name="L263" href="#L263">263</a>                         collectClassFilesToEnhanceFromPackage( lastEnhanced, outputDirectory, subdir, recurse );
+<a class="jxr_linenumber" name="L263" href="#L263">263</a>                         result.addAll( collectClassFilesToEnhanceFromPackage( lastEnhanced, outputDirectory, subdir, recurse ) );
 <a class="jxr_linenumber" name="L264" href="#L264">264</a>                     }
 <a class="jxr_linenumber" name="L265" href="#L265">265</a>                 }
 <a class="jxr_linenumber" name="L266" href="#L266">266</a>                 <strong class="jxr_keyword">else</strong>
@@ -286,17 +286,15 @@
 <a class="jxr_linenumber" name="L278" href="#L278">278</a> 
 <a class="jxr_linenumber" name="L279" href="#L279">279</a>     <strong class="jxr_keyword">private</strong> String trimSlash( String dir )
 <a class="jxr_linenumber" name="L280" href="#L280">280</a>     {
-<a class="jxr_linenumber" name="L281" href="#L281">281</a>         <strong class="jxr_keyword">if</strong> ( dir.endsWith( <span class="jxr_string">"/"</span> ) )
-<a class="jxr_linenumber" name="L282" href="#L282">282</a>         {
-<a class="jxr_linenumber" name="L283" href="#L283">283</a>             <strong class="jxr_keyword">return</strong> dir.substring( 0, dir.length() - 1 );
-<a class="jxr_linenumber" name="L284" href="#L284">284</a>         }
-<a class="jxr_linenumber" name="L285" href="#L285">285</a>         <strong class="jxr_keyword">else</strong>
-<a class="jxr_linenumber" name="L286" href="#L286">286</a>         {
-<a class="jxr_linenumber" name="L287" href="#L287">287</a>             <strong class="jxr_keyword">return</strong> dir;
-<a class="jxr_linenumber" name="L288" href="#L288">288</a>         }
-<a class="jxr_linenumber" name="L289" href="#L289">289</a>     }
-<a class="jxr_linenumber" name="L290" href="#L290">290</a> 
-<a class="jxr_linenumber" name="L291" href="#L291">291</a> }
+<a class="jxr_linenumber" name="L281" href="#L281">281</a>         String result = dir;
+<a class="jxr_linenumber" name="L282" href="#L282">282</a>         <strong class="jxr_keyword">if</strong> ( dir.endsWith( <span class="jxr_string">"/"</span> ) )
+<a class="jxr_linenumber" name="L283" href="#L283">283</a>         {
+<a class="jxr_linenumber" name="L284" href="#L284">284</a>             result = dir.substring( 0, dir.length() - 1 );
+<a class="jxr_linenumber" name="L285" href="#L285">285</a>         }
+<a class="jxr_linenumber" name="L286" href="#L286">286</a>         <strong class="jxr_keyword">return</strong> result;
+<a class="jxr_linenumber" name="L287" href="#L287">287</a>     }
+<a class="jxr_linenumber" name="L288" href="#L288">288</a> 
+<a class="jxr_linenumber" name="L289" href="#L289">289</a> }
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2013&#x2013;2014. All rights reserved.</div>

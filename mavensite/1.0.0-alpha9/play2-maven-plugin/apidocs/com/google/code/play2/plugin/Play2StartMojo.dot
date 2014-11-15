@@ -10,29 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// com.google.code.play2.plugin.Play2StartMojo
-	c802 [label=<<table title="com.google.code.play2.plugin.Play2StartMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2StartMojo.html">
+	c798 [label=<<table title="com.google.code.play2.plugin.Play2StartMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Play2StartMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Play2StartMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Play2StartMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	// com.google.code.play2.plugin.AbstractPlay2StartServerMojo
-	c815 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2StartServerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2StartServerMojo.html">
+	c811 [label=<<table title="com.google.code.play2.plugin.AbstractPlay2StartServerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPlay2StartServerMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="arial italic"> AbstractPlay2StartServerMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPlay2StartServerMojo.html", fontname="arial", fontcolor="black", fontsize=9.0];
 	//com.google.code.play2.plugin.Play2StartMojo extends com.google.code.play2.plugin.AbstractPlay2StartServerMojo
-	c815:p -> c802:p [dir=back,arrowtail=empty];
-	// com.google.code.play2.plugin.Play2StartMojo NAVASSOC org.apache.maven.project.MavenProject
-	c802:p -> c826:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// com.google.code.play2.plugin.Play2StartMojo DEPEND org.apache.maven.project.MavenProject
-	c802:p -> c826:p [taillabel="", label="", headlabel="", fontname="arial", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// org.apache.maven.project.MavenProject
-	c826 [label=<<table title="org.apache.maven.project.MavenProject" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProject.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MavenProject </td></tr>
-<tr><td align="center" balign="center"><font point-size="7.0"> org.apache.maven.project </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="http://maven.apache.org/ref/2.2.1/maven-project/apidocs/org/apache/maven/project/MavenProject.html", fontname="arial", fontcolor="black", fontsize=9.0];
+	c811:p -> c798:p [dir=back,arrowtail=empty];
 }
 
