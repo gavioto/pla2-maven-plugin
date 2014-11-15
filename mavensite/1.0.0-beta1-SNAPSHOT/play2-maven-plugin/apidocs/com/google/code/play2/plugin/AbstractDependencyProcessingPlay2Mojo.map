@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="c268" href="./AbstractPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractPlay2Mojo" alt="" coords="167,17,289,41"/>
+<area shape="rect" id="node1" href="./AbstractPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="157,5,299,53"/>
+<area shape="rect" id="c272" href="./AbstractDependencyProcessingPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractDependencyProcessingPlay2Mojo" alt="" coords="15,113,267,137"/>
+<area shape="rect" id="node2" href="./AbstractDependencyProcessingPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="5,101,277,149"/>
+<area shape="rect" id="c276" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html" title="org.apache.maven.artifact.Artifact" alt="" coords="163,203,293,253"/>
+<area shape="rect" id="node5" href="http://maven.apache.org/ref/2.2.1/maven-artifact/apidocs/org/apache/maven/artifact/Artifact.html" title="&lt;TABLE&gt;" alt="" coords="153,197,303,259"/>
+</map>

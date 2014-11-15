@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="c231" href="./AbstractPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractPlay2Mojo" alt="" coords="371,17,493,41"/>
+<area shape="rect" id="node1" href="./AbstractPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="361,5,503,53"/>
+<area shape="rect" id="c236" href="./AbstractArchivingMojo.html" title="com.google.code.play2.plugin.AbstractArchivingMojo" alt="" coords="361,113,503,137"/>
+<area shape="rect" id="node3" href="./AbstractArchivingMojo.html" title="&lt;TABLE&gt;" alt="" coords="351,101,513,149"/>
+<area shape="rect" id="c233" href="./AbstractPlay2DistMojo.html" title="com.google.code.play2.plugin.AbstractPlay2DistMojo" alt="" coords="16,216,157,240"/>
+<area shape="rect" id="node2" href="./AbstractPlay2DistMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,204,168,252"/>
+<area shape="rect" id="c243" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/zip/ZipArchiver.html" title="org.codehaus.plexus.archiver.zip.ZipArchiver" alt="" coords="181,313,337,349"/>
+<area shape="rect" id="node9" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/zip/ZipArchiver.html" title="&lt;TABLE&gt;" alt="" coords="171,307,347,355"/>
+<area shape="rect" id="c241" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/manager/ArchiverManager.html" title="org.codehaus.plexus.archiver.manager.ArchiverManager" alt="" coords="203,203,384,253"/>
+<area shape="rect" id="node7" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/manager/ArchiverManager.html" title="&lt;TABLE&gt;" alt="" coords="192,197,395,259"/>
+<area shape="rect" id="c247" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/war/WarArchiver.html" title="org.codehaus.plexus.archiver.war.WarArchiver" alt="" coords="479,210,638,246"/>
+<area shape="rect" id="node12" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/war/WarArchiver.html" title="&lt;TABLE&gt;" alt="" coords="469,204,648,252"/>
+<area shape="rect" id="c249" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/Archiver.html" title="org.codehaus.plexus.archiver.Archiver" alt="" coords="683,203,824,253"/>
+<area shape="rect" id="node14" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/codehaus/plexus/plexus-archiver/2.8.2/org/codehaus/plexus/archiver/Archiver.html" title="&lt;TABLE&gt;" alt="" coords="672,197,835,259"/>
+</map>

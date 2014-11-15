@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="c436" href="./AbstractPlay2StartServerMojo.html" title="com.google.code.play2.plugin.AbstractPlay2StartServerMojo" alt="" coords="16,209,197,233"/>
+<area shape="rect" id="node1" href="./AbstractPlay2StartServerMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,197,208,245"/>
+<area shape="rect" id="c447" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/taskdefs/Java.html" title="org.apache.tools.ant.taskdefs.Java" alt="" coords="363,299,507,335"/>
+<area shape="rect" id="node9" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/taskdefs/Java.html" title="&lt;TABLE&gt;" alt="" coords="352,293,517,341"/>
+<area shape="rect" id="c437" href="./AbstractPlay2ServerMojo.html" title="com.google.code.play2.plugin.AbstractPlay2ServerMojo" alt="" coords="413,113,571,137"/>
+<area shape="rect" id="node2" href="./AbstractPlay2ServerMojo.html" title="&lt;TABLE&gt;" alt="" coords="403,101,581,149"/>
+<area shape="rect" id="c438" href="./AbstractPlay2RunMojo.html" title="com.google.code.play2.plugin.AbstractPlay2RunMojo" alt="" coords="243,209,387,233"/>
+<area shape="rect" id="node3" href="./AbstractPlay2RunMojo.html" title="&lt;TABLE&gt;" alt="" coords="232,197,397,245"/>
+<area shape="rect" id="c448" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/types/Path.html" title="org.apache.tools.ant.types.Path" alt="" coords="483,203,613,239"/>
+<area shape="rect" id="node12" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/types/Path.html" title="&lt;TABLE&gt;" alt="" coords="472,197,624,245"/>
+<area shape="rect" id="c449" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/Project.html" title="org.apache.tools.ant.Project" alt="" coords="659,203,763,239"/>
+<area shape="rect" id="node14" href="http://maven-play-plugin.googlecode.com/svn/apidocs/org/apache/ant/ant/1.9.4/org/apache/tools/ant/Project.html" title="&lt;TABLE&gt;" alt="" coords="648,197,773,245"/>
+<area shape="rect" id="c445" href="./AbstractAntJavaBasedPlay2Mojo.html" title="com.google.code.play2.plugin.AbstractAntJavaBasedPlay2Mojo" alt="" coords="611,17,811,41"/>
+<area shape="rect" id="node4" href="./AbstractAntJavaBasedPlay2Mojo.html" title="&lt;TABLE&gt;" alt="" coords="600,5,821,53"/>
+</map>

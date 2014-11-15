@@ -1,0 +1,391 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+<title>Play22Provider (Play! 2.x Provider for Play! 2.2.x 1.0.0-alpha9 API)</title>
+<link rel="stylesheet" type="text/css" href="../../../../../../stylesheet.css" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="Play22Provider (Play! 2.x Provider for Play! 2.2.x 1.0.0-alpha9 API)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../../../com/google/code/play2/provider/play22/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/Play22Provider.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../../../index-all.html">Index</a></li>
+<li><a href="../../../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../../../com/google/code/play2/provider/play22/Play22LessCompiler.CompileResult.html" title="class in com.google.code.play2.provider.play22"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../../../com/google/code/play2/provider/play22/Play22RoutesCompiler.html" title="class in com.google.code.play2.provider.play22"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../../../index.html?com/google/code/play2/provider/play22/Play22Provider.html" target="_top">Frames</a></li>
+<li><a href="Play22Provider.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">com.google.code.play2.provider.play22</div>
+<h2 title="Class Play22Provider" class="title">Class Play22Provider</h2>
+<map id="G" name="G">
+<area shape="rect" id="c177" href="./Play22Provider.html" title="com.google.code.play2.provider.play22.Play22Provider" alt="" coords="689,127,791,151"/>
+<area shape="rect" id="node1" href="./Play22Provider.html" title="&lt;TABLE&gt;" alt="" coords="679,115,801,163"/>
+<area shape="rect" id="c187" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2JavaEnhancer.html" title="com.google.code.play2.provider.api.Play2JavaEnhancer" alt="" coords="16,216,184,267"/>
+<area shape="rect" id="node5" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2JavaEnhancer.html" title="&lt;TABLE&gt;" alt="" coords="5,211,195,272"/>
+<area shape="rect" id="c188" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2JavascriptCompiler.html" title="com.google.code.play2.provider.api.Play2JavascriptCompiler" alt="" coords="229,216,397,267"/>
+<area shape="rect" id="node7" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2JavascriptCompiler.html" title="&lt;TABLE&gt;" alt="" coords="219,211,408,272"/>
+<area shape="rect" id="c189" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2LessCompiler.html" title="com.google.code.play2.provider.api.Play2LessCompiler" alt="" coords="443,216,611,267"/>
+<area shape="rect" id="node9" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2LessCompiler.html" title="&lt;TABLE&gt;" alt="" coords="432,211,621,272"/>
+<area shape="rect" id="c190" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2RoutesCompiler.html" title="com.google.code.play2.provider.api.Play2RoutesCompiler" alt="" coords="656,216,824,267"/>
+<area shape="rect" id="node11" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2RoutesCompiler.html" title="&lt;TABLE&gt;" alt="" coords="645,211,835,272"/>
+<area shape="rect" id="c191" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2TemplateCompiler.html" title="com.google.code.play2.provider.api.Play2TemplateCompiler" alt="" coords="869,216,1037,267"/>
+<area shape="rect" id="node13" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2TemplateCompiler.html" title="&lt;TABLE&gt;" alt="" coords="859,211,1048,272"/>
+<area shape="rect" id="c192" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2EbeanEnhancer.html" title="com.google.code.play2.provider.api.Play2EbeanEnhancer" alt="" coords="1083,216,1251,267"/>
+<area shape="rect" id="node15" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2EbeanEnhancer.html" title="&lt;TABLE&gt;" alt="" coords="1072,211,1261,272"/>
+<area shape="rect" id="c193" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2CoffeescriptCompiler.html" title="com.google.code.play2.provider.api.Play2CoffeescriptCompiler" alt="" coords="1296,216,1464,267"/>
+<area shape="rect" id="node17" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2CoffeescriptCompiler.html" title="&lt;TABLE&gt;" alt="" coords="1285,211,1475,272"/>
+<area shape="rect" id="c186" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html" title="com.google.code.play2.provider.api.Play2Provider" alt="" coords="656,11,824,61"/>
+<area shape="rect" id="node2" href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html" title="&lt;TABLE&gt;" alt="" coords="645,5,835,67"/>
+</map>
+<!-- UML diagram added by UMLGraph version R5_6-24-gf6e263 (http://www.umlgraph.org/) -->
+<div align="center"><img src="Play22Provider.png" alt="Package class diagram package Play22Provider" usemap="#G" border=0/></div>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li><a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">java.lang.Object</a></li>
+<li>
+<ul class="inheritance">
+<li>com.google.code.play2.provider.play22.Play22Provider</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Provider</a></dd>
+</dl>
+<hr>
+<br>
+<pre>@Component(role=<a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">com.google.code.play2.provider.api.Play2Provider.class</a>,
+           hint="play22",
+           description="Play! 2.2.x")
+public class <span class="strong">Play22Provider</span>
+extends <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>
+implements <a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Provider</a></pre>
+<div class="block">Plugin provider for Play&#33; 2.2.x</div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../../../com/google/code/play2/provider/play22/Play22Provider.html#Play22Provider()">Play22Provider</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2CoffeescriptCompiler.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2CoffeescriptCompiler</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../../com/google/code/play2/provider/play22/Play22Provider.html#getCoffeescriptCompiler()">getCoffeescriptCompiler</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2EbeanEnhancer.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2EbeanEnhancer</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../../com/google/code/play2/provider/play22/Play22Provider.html#getEbeanEnhancer()">getEbeanEnhancer</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2JavaEnhancer.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2JavaEnhancer</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../../com/google/code/play2/provider/play22/Play22Provider.html#getEnhancer()">getEnhancer</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2JavascriptCompiler.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2JavascriptCompiler</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../../com/google/code/play2/provider/play22/Play22Provider.html#getJavascriptCompiler()">getJavascriptCompiler</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2LessCompiler.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2LessCompiler</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../../com/google/code/play2/provider/play22/Play22Provider.html#getLessCompiler()">getLessCompiler</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2RoutesCompiler.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2RoutesCompiler</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../../com/google/code/play2/provider/play22/Play22Provider.html#getRoutesCompiler()">getRoutesCompiler</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2TemplateCompiler.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2TemplateCompiler</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../../com/google/code/play2/provider/play22/Play22Provider.html#getTemplatesCompiler()">getTemplatesCompiler</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.<a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></h3>
+<code><a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true#clone()" title="class or interface in java.lang">clone</a>, <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang">equals</a>, <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang">finalize</a>, <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang">getClass</a>, <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang">hashCode</a>, <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang">notify</a>, <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang">notifyAll</a>, <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true#toString()" title="class or interface in java.lang">toString</a>, <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang">wait</a>, <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang">wait</a>, <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/Object.html?is-external=true#wait(long,%20int)" title="class or interface in java.lang">wait</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="Play22Provider()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>Play22Provider</h4>
+<pre>public&nbsp;Play22Provider()</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="getLessCompiler()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getLessCompiler</h4>
+<pre>public&nbsp;<a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2LessCompiler.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2LessCompiler</a>&nbsp;getLessCompiler()</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true#getLessCompiler()" title="class or interface in com.google.code.play2.provider.api">getLessCompiler</a></code>&nbsp;in interface&nbsp;<code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Provider</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getCoffeescriptCompiler()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getCoffeescriptCompiler</h4>
+<pre>public&nbsp;<a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2CoffeescriptCompiler.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2CoffeescriptCompiler</a>&nbsp;getCoffeescriptCompiler()</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true#getCoffeescriptCompiler()" title="class or interface in com.google.code.play2.provider.api">getCoffeescriptCompiler</a></code>&nbsp;in interface&nbsp;<code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Provider</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getJavascriptCompiler()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getJavascriptCompiler</h4>
+<pre>public&nbsp;<a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2JavascriptCompiler.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2JavascriptCompiler</a>&nbsp;getJavascriptCompiler()</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true#getJavascriptCompiler()" title="class or interface in com.google.code.play2.provider.api">getJavascriptCompiler</a></code>&nbsp;in interface&nbsp;<code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Provider</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getRoutesCompiler()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getRoutesCompiler</h4>
+<pre>public&nbsp;<a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2RoutesCompiler.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2RoutesCompiler</a>&nbsp;getRoutesCompiler()</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true#getRoutesCompiler()" title="class or interface in com.google.code.play2.provider.api">getRoutesCompiler</a></code>&nbsp;in interface&nbsp;<code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Provider</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getTemplatesCompiler()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getTemplatesCompiler</h4>
+<pre>public&nbsp;<a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2TemplateCompiler.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2TemplateCompiler</a>&nbsp;getTemplatesCompiler()</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true#getTemplatesCompiler()" title="class or interface in com.google.code.play2.provider.api">getTemplatesCompiler</a></code>&nbsp;in interface&nbsp;<code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Provider</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getEnhancer()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getEnhancer</h4>
+<pre>public&nbsp;<a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2JavaEnhancer.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2JavaEnhancer</a>&nbsp;getEnhancer()</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true#getEnhancer()" title="class or interface in com.google.code.play2.provider.api">getEnhancer</a></code>&nbsp;in interface&nbsp;<code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Provider</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getEbeanEnhancer()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>getEbeanEnhancer</h4>
+<pre>public&nbsp;<a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2EbeanEnhancer.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2EbeanEnhancer</a>&nbsp;getEbeanEnhancer()</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true#getEbeanEnhancer()" title="class or interface in com.google.code.play2.provider.api">getEbeanEnhancer</a></code>&nbsp;in interface&nbsp;<code><a href="https://play2-maven-plugin.googlecode.com/svn/mavensite/1.0.0-alpha9/play2-provider-api/apidocs/com/google/code/play2/provider/api/Play2Provider.html?is-external=true" title="class or interface in com.google.code.play2.provider.api">Play2Provider</a></code></dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../../../com/google/code/play2/provider/play22/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/Play22Provider.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../../../index-all.html">Index</a></li>
+<li><a href="../../../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../../../com/google/code/play2/provider/play22/Play22LessCompiler.CompileResult.html" title="class in com.google.code.play2.provider.play22"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../../../com/google/code/play2/provider/play22/Play22RoutesCompiler.html" title="class in com.google.code.play2.provider.play22"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../../../index.html?com/google/code/play2/provider/play22/Play22Provider.html" target="_top">Frames</a></li>
+<li><a href="Play22Provider.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li>Field&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>Copyright &#169; 2013&#x2013;2014. All rights reserved.</small></p>
+</body>
+</html>
